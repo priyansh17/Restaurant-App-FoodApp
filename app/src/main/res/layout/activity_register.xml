@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.RegisterActivity"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameOfuser"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="Name"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailid"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="Email Id"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_below="@+id/nameOfuser"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobile"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/mobile_number"
+        android:inputType="phone"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/phone"
+        android:layout_below="@+id/emailid"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="Delivery Address"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:layout_below="@id/mobile"
+        android:drawableLeft="@drawable/ic_add_location_black_24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@+id/address"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="Password (8 Digits)"
+        android:inputType="numberPassword"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/password"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmPassword"
+        android:layout_below="@+id/password"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="Confirm Password"
+        android:inputType="numberPassword"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#ffffff"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/password"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_below="@+id/confirmPassword"
+        android:id="@+id/buttonRegister"
+        android:layout_marginTop="12dp"
+        tools:ignore="PrivateResource" />
+
+
+
+</RelativeLayout>

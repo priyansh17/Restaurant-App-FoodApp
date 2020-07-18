@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Foodies Nation</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="txtForgotPassword">Enter your registered Phone Number and Email ID below.</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="log_out">Log out</string>
+
+    <string name="open">open drawer</string>
+    <string name="close">close drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shared_preferences">Shared Preferences</string>
+    <string name="question1">Q1. Why is Foodies Nation doing this?</string>
+    <string name="answer1">A1. At Foodies Nation we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material. Food Runner Packaging Assist is to take care of all your packaging needs.</string>
+    <string name="question2">Q2. How are you guys are different?</string>
+    <string name="answer2">A2. Best products Only - We only list the products which have passed our tests and are the best suitable for delivery.  In this way They will help in giving a better consumer experience, so you can get get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Food Runner Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="question3">Q3. Who is the owner of this app?</string>
+    <string name="answer3">A3. This app is created by Priyansh choudhary. for Internshalla trainings.</string>
+    <string name="question4">Q4. How are you guys are different?</string>
+    <string name="answer4">A4. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for Food Runner Restaurant. Convenience - No need to haggle for prices. No need to follow-up on delivery. We track all orders to ensure you have a hassle free experience.</string>
+    <string name="sort">sort</string>
+
+</resources>
